@@ -10,7 +10,7 @@ ax.semilogx(x, y, 'x-')
 plt.xlabel("Number of rows per file")
 plt.xlim((800, 120000000))
 plt.ylim((1.5, 21))
-plt.ylabel("Time taken to execute query /s")
+plt.ylabel("Time taken to execute query (s)")
 plt.title("Query time over files containing a total of 100,000,000 data rows")
 
 #plt.show()
